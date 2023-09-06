@@ -1,0 +1,36 @@
+.deal-title {
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: capitalize;
+  color: #000;
+}
+.deal-subtitle {
+  font-family: Cormorant;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+}
+.deal-price {
+  color: #000;
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: 1.1px;
+}
+.deal-text {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.7px;
+}
+.deal-button {
+  color: #fff;
+  font-size: 14px;;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1.4px;
+  text-transform: capitalize;
+}
