@@ -2,3 +2,42 @@
     width: 125px;
     height: 27px;
 }
+
+.active-page {
+    color: #DE1616;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
+.header-page {
+    color: #000;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
+.header-page:hover {
+    color: #DE1616;
+}
+
+.header-page:focus {
+    color: #DE1616;
+}
+
+.header-number {
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+}
+
+.header-text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
