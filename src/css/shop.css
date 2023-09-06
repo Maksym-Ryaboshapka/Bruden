@@ -5,6 +5,10 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./shop-page/header.css');
+@import url('./shop-page/shop.css');
+@import url('./home-page/special.css');
+@import url('./home-page/footer.css');
 
 
 :root {
@@ -25,4 +29,11 @@
   --yellow: #FDAE04;
   --red: #DE1616;
   --grey: #7F7F7F;
+}
+
+.container {
+  width: 1190px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: solid red;
 }
