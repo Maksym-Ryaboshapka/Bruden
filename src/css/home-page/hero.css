@@ -35,7 +35,6 @@
 }
 
 .hero-img {
-    width: 864px;
-    height: 699px;
-    flex-shrink: 0;
+    width: 580px;
+    height: 700px;
 }
