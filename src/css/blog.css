@@ -33,6 +33,11 @@
   --grey: #7F7F7F;
 }
 
+* {
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+}
+
 .container {
   width: 1190px;
   margin: 0 auto;
