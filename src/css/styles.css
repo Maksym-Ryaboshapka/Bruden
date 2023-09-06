@@ -21,4 +21,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --black: #292A33;
+  --yellow: #FDAE04;
+  --red: #DE1616;
+  --grey: #7F7F7F;
 }
