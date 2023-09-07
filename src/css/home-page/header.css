@@ -1,6 +1,24 @@
+.header {
+    padding: 22px 0 24px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
 .header-img {
     width: 125px;
     height: 27px;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
 }
 
 .active-page {
@@ -23,6 +41,29 @@
 
 .header-page:focus {
     color: #DE1616;
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+    margin-left: 165px;
+    align-items: center;
+}
+
+.header-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.header-box {
+    border-radius: 50%;
+    background-color: #DE1616;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
 }
 
 .header-number {
