@@ -1,3 +1,8 @@
+.hero-container {
+    display: flex;
+    padding-left: 140px;
+}
+
 .hero-subtitle {
     color: var(--grey, #7F7F7F);
     font-family: 'Josefin Sans';
@@ -21,6 +26,7 @@
     /* 54.6px */
     letter-spacing: 2.94px;
     text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
 .hero-text {
@@ -32,6 +38,7 @@
     line-height: 160%;
     /* 35.2px */
     letter-spacing: 2.2px;
+    margin-bottom: 35px;
 }
 
 .hero-img {
