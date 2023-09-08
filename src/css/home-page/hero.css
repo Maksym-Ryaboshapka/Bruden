@@ -1,6 +1,12 @@
 .hero-container {
     display: flex;
-    padding-left: 140px;
+    padding-left: 87px;
+}
+
+.hero-title-container {
+    outline: solid red;
+    padding-top: 179px;
+    display: block;
 }
 
 .hero-subtitle {
@@ -13,7 +19,7 @@
     /* 25.6px */
     letter-spacing: 0.8px;
     text-transform: lowercase;
-
+    margin-bottom: 0;
 }
 
 .hero-title {
@@ -27,6 +33,7 @@
     letter-spacing: 2.94px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    width: 511px;
 }
 
 .hero-text {
@@ -42,4 +49,22 @@
 .hero-img {
     width: 580px;
     height: 700px;
+}
+
+.hero-button {
+    display: flex;
+    padding: 14px 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--black, #292A33);
+    color: #FFF;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
 }
