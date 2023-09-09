@@ -1,5 +1,5 @@
 .deal-title {
-  font-family: Cormorant;
+  font-family: 'Cormorant';
   font-size: 28px;
   font-weight: 400;
   line-height: normal;
@@ -10,7 +10,7 @@
   margin-bottom: 62px;
 }
 .deal-subtitle {
-  font-family: Cormorant;
+  font-family: 'Cormorant';
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
