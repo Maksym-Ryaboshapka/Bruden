@@ -12,6 +12,11 @@
     line-height: normal;
     letter-spacing: 2.8px;
     text-transform: capitalize;
+    
+}
+
+.news-name-container {
+ margin: 0 auto;
 }
 
 .news-title {
@@ -25,6 +30,8 @@
     /* 28.8px */
     letter-spacing: 1.8px;
     width: 217px;
+    margin-top: 20px;
+
 }
 
 .news-text {
@@ -38,9 +45,22 @@
     letter-spacing: 0.8px;
     text-transform: capitalize;
     width: 320px;
+    height: 104px;
 }
 
 .read-more {
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    margin-top: 10px;
+    padding-left: 249px;
+}
+
+.read-moree {
     font-family: 'Josefin Sans';
     font-size: 14px;
     font-style: normal;
