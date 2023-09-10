@@ -15,6 +15,7 @@
     border-right: 20px solid #fff;
     width: 360px;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .news-name {
@@ -32,6 +33,30 @@
     height: 1px;
     background-color: #DE1616;
     margin: 10px auto 50px;
+}
+
+.news-time {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 27%;
+    color: var(--grey, #7F7F7F);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+}
+
+.news-item:nth-child(1) .news-time {
+    left: -81px;
+}
+
+.news-item:nth-child(2) .news-time {
+    left: -77px;
+}
+
+.news-item:nth-child(3) .news-time {
+    left: -75px;
 }
 
 .news-title {
