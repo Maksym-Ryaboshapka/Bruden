@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+}
+
+.contact-title {
+    font-family: 'Cormorant';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 4.2px;
+    color: #000;
+    text-align: center;
+}
+
+.form-list {
+    margin-right: 40px;
+}
+
+.title-contact {
+    font-family: 'Cormorant';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.contact-subtitle {
+    font-family: 'Cormorant';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: capitalize;
+    margin-top: 30px;
+
+}
+
+.contact-address {
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+    color: #000;
+    margin-top: 15px;
+}
