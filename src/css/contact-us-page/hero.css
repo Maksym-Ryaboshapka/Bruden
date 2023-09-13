@@ -1,26 +1,35 @@
+.hero {
+    padding-top: 131px;
+}
+
 .hero-container {
     display: flex;
+}
+
+.hero-name {
+    color: #000;
+    text-align: center;
+    font-family: 'Cormorant';
+    font-size: 42px;
+    line-height: normal;
+    letter-spacing: 4.2px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .contact-title {
     font-family: 'Cormorant';
     font-size: 42px;
-    font-style: normal;
-    font-weight: 300;
     line-height: normal;
     letter-spacing: 4.2px;
     color: #000;
-    text-align: center;
 }
 
-.form-list {
-    margin-right: 40px;
-}
-
-.title-contact {
+.contact-title {
     font-family: 'Cormorant';
     font-size: 28px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2.8px;
@@ -31,23 +40,108 @@
 .contact-subtitle {
     font-family: 'Cormorant';
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 2.4px;
     text-transform: capitalize;
     margin-top: 30px;
-
+    margin-bottom: 15px;
 }
 
 .contact-address {
-    font-family: 'Josefin Sans';
+    color: #000;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     letter-spacing: 0.9px;
     text-transform: capitalize;
+}
+
+.hero-block {
+    margin: 0 auto;
+}
+
+.hero-title {
     color: #000;
-    margin-top: 15px;
+    font-family: 'Cormorant';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.hero-form {
+    padding-bottom: 40px;
+}
+
+.form-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    color: #000;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: 450px;
+    height: 24px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+.form-textarea {
+    resize: none;
+    width: 450px;
+    height: 170px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+.form-btn {
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    background-color: var(--black, #292A33);
+    margin-top: 30px;
+}
+
+.archives-item {
+    display: flex;
+}
+
+.categories-item {
+    display: flex;
+}
+
+.posts-item {
+    display: flex;
+    gap: 10px;
+}
+
+.posts-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.posts-subtitle {
+    margin-right: auto;
 }
