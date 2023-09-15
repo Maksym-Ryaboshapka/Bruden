@@ -38,3 +38,7 @@ img {
 input {
   border: none;
 }
+
+time {
+  display: block;
+}
